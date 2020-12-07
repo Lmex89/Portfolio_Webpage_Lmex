@@ -1,0 +1,271 @@
+/*==============General Classes=========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.general-container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-link-none {
+    text-decoration: none;
+}
+
+.text-link-none:hover {
+    opacity: 0.5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text {
+    font-size: 0.9rem;
+    padding: 15px;
+    color: rgb(80, 64, 83);
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    border: solid;
+}
+
+.text-opacity:hover {
+    opacity: 0.5;
+}
+
+.bg-border {
+    /* margin-top: 2px; */
+    border: solid;
+    margin: 5px;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-green {
+    color: #68e0cf;
+}
+
+.color-wh {
+    color: white;
+}
+
+.bg-section {
+    background: #373b40;
+}
+
+.dflex-center {
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/*==============Section-Nav-Bar=========================*/
+
+.section-bar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.5 rem;
+}
+
+.logo {
+    display: inline;
+}
+
+.menu-left {
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.menu-left:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.nav-bar-left li {
+    display: inline;
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.nav-bar-left:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+/*==============Div-Banner-Section=========================*/
+
+div.banner-section {
+    min-height: 390px;
+    background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 0.5px;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(95, 194, 197, 0.25);
+    height: 100%;
+    width: 100%;
+}
+
+.main-title {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+
+/*==============Section Post=========================*/
+
+.title-post {
+    padding: 30px;
+}
+
+.img-right {
+    background-image: url("https://images.pexels.com/photos/3822133/pexels-photo-3822133.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    border: solid;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.pic-container {
+    margin: auto;
+    height: 90px;
+    padding: 5px;
+}
+
+
+/*==============Pictures elements Post=========================*/
+
+.img-left {
+    background-image: url("../img/me.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 80px;
+    max-width: 80px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.img-right:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+p.title-about-me {
+    font-size: 1.2rem;
+}
+
+.pic-container-post {
+    margin: auto;
+    height: 150px;
+    padding: 5px;
+}
+
+.img-post-hindawi {
+    background-image: url("../img/post1.png");
+    background-size: cover;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid;
+    height: 130px;
+    max-width: 130px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-info {
+    position: absolute;
+    top: 100%;
+    bottom: 20%;
+    background-color: rgba(1, 2, 2, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: top 1s;
+}
+
+.img-post-hindawi:hover .overlay-info {
+    top: 10px;
+}
+
+.img-post-webscience {
+    background-image: url("../img/main-page-two.png");
+    background-size: cover;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid;
+    height: 130px;
+    max-width: 130px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-post-webscience:hover .overlay-info {
+    top: 10px;
+}
+
+.img-post-piday {
+    background-image: url("../img/piday.png");
+    background-size: cover;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid;
+    height: 130px;
+    max-width: 130px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-post-piday:hover .overlay-info {
+    top: 10px;
+}
+
+
+/*==============Services Section Elements=========================*/
+
+.card-services {
+    padding: 10px;
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.card-services:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+
+/*==============Social Media Footer =========================*/
+
+.icons-social {
+    margin: auto;
+}
+
+.fab {
+    padding: 5px;
+}
+
+.fab:hover {
+    opacity: 0.1;
+}
